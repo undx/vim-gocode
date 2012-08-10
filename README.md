@@ -4,6 +4,11 @@ Install `gocode` before:
 
     go get -u github.com/nsf/gocode
 
-Then put this line in your `~/.vimrc`:
+Put this line in your `~/.vimrc`:
 
     Bundle 'undx/vim-gocode'
+
+Then, update your bundles:
+
+    :BundleInstall!
+
